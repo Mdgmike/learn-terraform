@@ -10,6 +10,6 @@ resource "aws_instance" "ubuntu" {
   instance_type = var.instance_type
 
   tags = {
-    Name = terraform-cloud-changed
+    Name = "terraform-cloud-changed"
   }
 }
